@@ -1,0 +1,594 @@
+[
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_settings.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_settings.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_list_divider_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_share.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_share.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_splashscreen_logo.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_splashscreen_logo.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_theme_distinct_button_background.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_theme_distinct_button_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_timeline_tracker_button.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_timeline_tracker_button.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/like2.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/like2.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/comment_sphere.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/comment_sphere.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6251e7e56c2507dca10195e8a333c1dc/res/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_pause.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_pause.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_timeline_current_time_track.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_timeline_current_time_track.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_share_small.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_share_small.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_logo.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_logo.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_play_press.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_play_press.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6251e7e56c2507dca10195e8a333c1dc/res/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_progressbar_horizontal.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_progressbar_horizontal.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6251e7e56c2507dca10195e8a333c1dc/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_browser_bottombar_icon_forward.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_browser_bottombar_icon_forward.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/slide_sphere.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/slide_sphere.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_timeline_stream_progress_track.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_timeline_stream_progress_track.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/tooltip_frame_dark.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_replay.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_replay.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_oval_button.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_oval_button.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_header_install_button.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_header_install_button.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_topbar_icon_menu_press.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_topbar_icon_menu_press.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_play.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_play.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_facecam.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_facecam.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_audio_levels.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_audio_levels.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_browser_bottombar_icon_share.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_browser_bottombar_icon_share.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/chat.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/chat.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/like_sphere.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/like_sphere.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_action_list_destructive.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_action_list_destructive.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6251e7e56c2507dca10195e8a333c1dc/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6251e7e56c2507dca10195e8a333c1dc/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_microphone_bg.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_microphone_bg.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_topbar_icon_close.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_topbar_icon_close.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_text_input_background.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_text_input_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_endscreen_install_button.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_endscreen_install_button.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_replay_press.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_replay_press.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_facecam_bg.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_facecam_bg.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_topbar_icon_menu.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_topbar_icon_menu.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_round_button.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_round_button.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_browser_bottombar_icon_refresh.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_browser_bottombar_icon_refresh.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_topbar_menubutton.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_topbar_menubutton.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_comment.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_comment.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/27fd1457c49d18288c5639be774a5179/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_button_shape.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_button_shape.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_sidemenu_button.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_sidemenu_button.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_theme_sidemenu_button.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_theme_sidemenu_button.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/green.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/green.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_topbar_background.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_topbar_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_action_list_option.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_action_list_option.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/share.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/share.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_trashcan_background.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_trashcan_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_action_list_cancel.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_action_list_cancel.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_browser_button_forward.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_browser_button_forward.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/27fd1457c49d18288c5639be774a5179/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/test_image.jpg",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/test_image.jpg"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/mtrl_snackbar_background.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6251e7e56c2507dca10195e8a333c1dc/res/drawable/mtrl_snackbar_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/27fd1457c49d18288c5639be774a5179/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6251e7e56c2507dca10195e8a333c1dc/res/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_trimmer_tracker_button_pressed.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_trimmer_tracker_button_pressed.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_icon_undo_trim.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_icon_undo_trim.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_levels.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_levels.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_browser_button_share.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_browser_button_share.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_button_green.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_button_green.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_topbar_notification.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_topbar_notification.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/tooltip_frame_light.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_pause_press.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_pause_press.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_audio_levels_blank.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_audio_levels_blank.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_audio_icon.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_audio_icon.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/up_arrow.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/up_arrow.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/playbutton.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/playbutton.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_hd_on.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_hd_on.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6251e7e56c2507dca10195e8a333c1dc/res/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_endscreen_thumb_play.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_endscreen_thumb_play.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/27fd1457c49d18288c5639be774a5179/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_bg_bottombar.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_bg_bottombar.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_hd_off.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_hd_off.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_trimmer_background_track.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_trimmer_background_track.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_topbar_icon_close_press.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_topbar_icon_close_press.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_like.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_like.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_theme_button_background.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_theme_button_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_like_active.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_like_active.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_audio_commentary.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_audio_commentary.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_timeline_tracker_button_pressed.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_timeline_tracker_button_pressed.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_trimmer_handle.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_trimmer_handle.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_button_background.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_button_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_trimmer_handle_pressed.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_trimmer_handle_pressed.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_browser_button_back.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_browser_button_back.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/three.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/three.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_icon_everyplay.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_icon_everyplay.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_icon_stop.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_icon_stop.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6251e7e56c2507dca10195e8a333c1dc/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_processing_bg.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_processing_bg.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_trashcan_background_active.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_trashcan_background_active.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_control_button.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_control_button.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_trimmer_tracker_button.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_trimmer_tracker_button.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_header_bg.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_header_bg.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_browser_bottombar_icon_back.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_browser_bottombar_icon_back.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/like.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/like.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_icon_trim.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_icon_trim.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/send_button.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/res/drawable/send_button.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_browser_button_refresh.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_browser_button_refresh.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_browser_bottombar_bg.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_browser_bottombar_bg.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_trashcan.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_trashcan.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6251e7e56c2507dca10195e8a333c1dc/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_everyplay.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_everyplay.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_buttonbar_button.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_buttonbar_button.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_editor_trimmer_current_time_track.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_editor_trimmer_current_time_track.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_theme_sidemenu_background.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_theme_sidemenu_background.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_button_blue.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_button_blue.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/af394c43f9044eedb28945c67ca482bb/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_video_bg_seekbar.png",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_video_bg_seekbar.png"
+    },
+    {
+        "merged": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/build/intermediates/res/merged/debug/drawable/everyplay_topbar_closebutton.xml",
+        "source": "/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/build/intermediates/packaged_res/debug/drawable/everyplay_topbar_closebutton.xml"
+    }
+]

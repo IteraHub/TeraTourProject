@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                 
+                             
+                                                                     
+           
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="#fff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp" android:tag="layout/target_info_layout_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/card_image_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:background="@drawable/green">
+
+                    <ImageView
+                        android:id="@+id/card_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:fitsSystemWindows="true"
+                        android:tag="binding_1"                 />
+
+                    <Button
+                        android:id="@+id/playback"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/playbutton"
+                        android:tag="binding_2"                                    />
+
+                    <TextView
+                        android:id="@+id/editText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_toStartOf="@+id/playback"
+                        android:ems="10"
+                        android:text="@string/NoImage"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/status_text_size"
+                        android:gravity="center"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="cursive"/>
+
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/targetName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/myBlack"
+                    android:textSize="25sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:tag="binding_3"                              />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold|italic"
+                    android:text="About"/>
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+
+
+                    <TextView
+                        android:id="@+id/card_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/large_text" />
+                </ScrollView>
+
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+         

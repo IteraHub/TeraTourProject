@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml
+		INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:5:5-45
+uses-sdk
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:6:3-15
+INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:6:3-15
+INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:6:3-15
+	android:minSdkVersion
+		INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:6:3-15
+		INJECTED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:7:3-63
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:7:20-60
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:8:3-79
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:8:20-76
+uses-permission#android.permission.INTERNET
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:9:3-65
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:9:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:10:3-77
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:10:20-74
+uses-feature#0x00020000
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:12:3-76
+	android:glEsVersion
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:12:17-49
+	android:required
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:12:50-73
+uses-feature#android.hardware.camera
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:14:3-82
+	android:required
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:14:56-79
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:14:17-55
+supports-screens
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:16:3-21:38
+	android:largeScreens
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:17:7-34
+	android:smallScreens
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:19:7-35
+	android:normalScreens
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:18:7-35
+	android:xlargeScreens
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:21:7-35
+	android:anyDensity
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:16:21-46
+	tools:replace
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:20:7-43
+application
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:23:3-43:17
+	android:label
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:23:16-48
+	android:icon
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:26:7-38
+	android:banner
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:25:7-44
+	android:theme
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:27:7-48
+	android:isGame
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:24:7-28
+activity#com.itera.teratour.View.UnityPlayerActivity
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:29:5-37:16
+	android:configChanges
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:30:9-166
+	android:theme
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:31:9-65
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:29:15-55
+meta-data#com.google.ar.core
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:39:5-77
+	android:value
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:39:50-74
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:39:16-49
+meta-data#unity.build-id
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:40:5-101
+	android:value
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:40:46-98
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:40:16-45
+meta-data#unity.splash-mode
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:41:5-69
+	android:value
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:41:49-66
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:41:16-48
+meta-data#unity.splash-enable
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:42:5-74
+	android:value
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:42:51-71
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:42:16-50
+uses-feature#android.hardware.camera.autofocus
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:45:3-93
+	android:required
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:45:66-90
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:45:17-65
+uses-feature#android.hardware.camera.front
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:46:3-89
+	android:required
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:46:62-86
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:46:17-61
+uses-feature#android.hardware.touchscreen
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:47:3-88
+	android:required
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:47:61-85
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:47:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:48:3-99
+	android:required
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:48:72-96
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:48:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:49:3-108
+	android:required
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:49:81-105
+	android:name
+		ADDED from /media/francis/DataBase/Tera/Teratour/TeraTourAR/src/main/AndroidManifest.xml:49:17-80
