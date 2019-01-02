@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:background="@color/shadow_color"
+        android:id="@+id/shadow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+    <RelativeLayout
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:text="Teratour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="50dp"
+            android:textSize="20sp"
+            android:hint="Username"
+            android:layout_below="@+id/title"
+            android:id="@+id/user_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:textSize="20sp"
+            android:layout_below="@+id/user_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/password"
+            android:id="@+id/login_button"
+            android:text="Log In"
+            android:textColor="@color/white"
+            android:layout_width="200dp"
+            android:layout_height="60dp" />
+        <TextView
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/login_button"
+            android:text="Don't have an account? Sign Up"
+            android:id="@+id/no_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ProgressBar
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:layout_below="@+id/user_et"
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

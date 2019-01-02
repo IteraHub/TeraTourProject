@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/post_profile_pic"
+                android:layout_width="45dp"
+                android:scaleType="centerCrop"
+                android:layout_height="60dp"
+                tools:src="@drawable/pm"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+            <TextView
+                android:layout_toEndOf="@+id/post_profile_pic"
+                android:id="@+id/profile_name"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                tools:text="John Doe"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+            <TextView
+                tools:text="-@johndoe"
+                android:id="@+id/profile_username"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_below="@+id/profile_name"
+                android:layout_toEndOf="@+id/post_profile_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                />
+        </RelativeLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shimmer_view_container_1">
+        <ImageView
+            android:id="@+id/post"
+            tools:src="@drawable/ic_rect"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progress_bar_1"
+            android:layout_gravity="center"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <ImageButton
+        android:layout_margin="10dp"
+        android:layout_below="@+id/frame1"
+        android:id="@+id/like"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        app:srcCompat="@drawable/ic_outline_favorite_24px" />
+
+    <TextView
+        android:id="@+id/like_count"
+        tools:text="12"
+        android:textStyle="bold"
+        android:layout_below="@+id/frame1"
+        android:layout_toEndOf="@+id/like"
+        android:layout_alignBottom="@+id/like"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:layout_below="@+id/frame1"
+        android:id="@+id/share"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:layout_toEndOf="@+id/like_count"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        app:srcCompat="@drawable/ic_outline_share" />
+
+    <TextView
+        android:ellipsize="end"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:id="@+id/post_text"
+        android:maxLines="20"
+        android:maxLength="120"
+        android:text="@string/small_text"
+        android:layout_below="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:id="@+id/comment"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_below="@+id/post_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:id="@+id/progress_bar_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/owner_pic"
+            android:layout_width="20dp"
+            android:scaleType="centerCrop"
+            android:layout_height="25dp"
+            tools:src="@drawable/pm"
+            android:layout_marginBottom="8dp"
+            />
+        <TextView
+            android:visibility="gone"
+            android:layout_toEndOf="@+id/owner_pic"
+            android:id="@+id/owner_name"
+            tools:text="John Doe"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            tools:text=" johndoe"
+            android:textSize="12sp"
+            android:id="@+id/owner_username"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/owner_name"
+            android:layout_toEndOf="@+id/owner_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="12sp"
+            android:layout_below="@+id/owner_pic"
+            android:ellipsize="end"
+            android:id="@+id/owner_text"
+            android:maxLines="2"
+            tools:text="@string/small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

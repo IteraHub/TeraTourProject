@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="everyplay_blue">#0a4495</color>
+    <color name="everyplay_editor_button_background">#E6000000</color>
+    <color name="everyplay_editor_button_text">#FFFFFF</color>
+    <color name="everyplay_native_overlay_background">#D0000000</color>
+    <color name="everyplay_theme_button_background">#2d54c2</color>
+    <color name="everyplay_theme_button_background_active">#4369d5</color>
+    <color name="everyplay_theme_button_text_color">#FFFFFF</color>
+    <color name="everyplay_theme_distinct_button_background">#02A330</color>
+    <color name="everyplay_theme_distinct_button_background_active">#4bb82a</color>
+    <color name="everyplay_theme_distinct_button_text_color">#FFFFFF</color>
+    <color name="everyplay_theme_sidemenu_background">#444444</color>
+    <color name="everyplay_theme_sidemenu_item_background">#00555555</color>
+    <color name="everyplay_theme_sidemenu_item_background_active">#5F5F5F</color>
+    <color name="everyplay_theme_sidemenu_item_badge_background">#c21900</color>
+    <color name="everyplay_theme_sidemenu_item_badge_text_color">#FFFFFF</color>
+    <color name="everyplay_theme_sidemenu_item_description_text_color">#909090</color>
+    <color name="everyplay_theme_sidemenu_item_header_text_color">#FFFFFF</color>
+    <color name="everyplay_theme_sidemenu_item_secondary_badge_background">#c21900</color>
+    <color name="everyplay_theme_sidemenu_item_secondary_badge_text_color">#FFFFFF</color>
+    <color name="everyplay_theme_splashscreen_background">#FF0A4495</color>
+    <color name="everyplay_theme_splashscreen_retrybutton_text_color">#FFFFFFFF</color>
+    <color name="everyplay_theme_splashscreen_statustext_color">#FFFFFFFF</color>
+    <color name="everyplay_theme_topbar_actionbutton_text_color">#FFFFFF</color>
+    <color name="everyplay_theme_topbar_background">#0a4495</color>
+    <color name="everyplay_theme_topbar_icon_active_color">#FFFFFF</color>
+    <color name="everyplay_theme_topbar_icon_color">#FFFFFF</color>
+    <color name="everyplay_theme_topbar_title_text_color">#FFFFFF</color>
+    <declare-styleable name="EveryplayImageView">
+        <attr format="float" name="borderRadius"/>
+    </declare-styleable>
+    <declare-styleable name="EveryplayRangeSlider">
+        <attr format="dimension" name="startPointButtonWidth"/>
+        <attr format="reference" name="startPointButtonDrawable"/>
+        <attr format="reference" name="startPointButtonDrawablePressed"/>
+        <attr format="dimension" name="trackerButtonWidth"/>
+        <attr format="reference" name="trackerButtonDrawable"/>
+        <attr format="reference" name="trackerButtonDrawablePressed"/>
+        <attr format="dimension" name="endPointButtonWidth"/>
+        <attr format="reference" name="endPointButtonDrawable"/>
+        <attr format="reference" name="endPointButtonDrawablePressed"/>
+        <attr format="reference" name="backgroundTrackDrawable"/>
+        <attr format="reference" name="streamProgressTrackDrawable"/>
+        <attr format="reference" name="currentTimeTrackDrawable"/>
+    </declare-styleable>
+    <string name="everyplay_app_name">Everyplay</string>
+    <string name="everyplay_browse_text">Browse</string>
+    <string name="everyplay_by_text">by</string>
+    <string name="everyplay_by_username_text">By username</string>
+    <string name="everyplay_cancel_text">Cancel</string>
+    <string name="everyplay_close">Close</string>
+    <string name="everyplay_close_confirmation_text">Tap again to exit</string>
+    <string name="everyplay_connection_failed">Connection failed!</string>
+    <string name="everyplay_connection_success">Connection successful!</string>
+    <string name="everyplay_connection_timeout">Connection timed out!</string>
+    <string name="everyplay_default_button_label">Button</string>
+    <string name="everyplay_default_title">Title</string>
+    <string name="everyplay_done_text">Done</string>
+    <string name="everyplay_editor_loading_facecam_failed">Loading FaceCam failed!</string>
+    <string name="everyplay_editor_processing_text">Processing video…</string>
+    <string name="everyplay_empty_string"/>
+    <string name="everyplay_install_game_text">Install Game</string>
+    <string name="everyplay_launch_game_text">Launch Game</string>
+    <string name="everyplay_loading_text">Loading…</string>
+    <string name="everyplay_retry_text">Retry</string>
+    <string name="everyplay_share_text">Share</string>
+    <string name="everyplay_text">Everyplay</string>
+    <string name="everyplay_unable_to_play_video_text">Unable to play video</string>
+    <string name="everyplay_upload_failed_text">Upload Failed!</string>
+    <string name="everyplay_upload_text">Uploading…</string>
+    <string name="everyplay_video_description_text">Video description</string>
+    <string name="everyplay_zero_text">0</string>
+    <string name="everyplay_zero_time_text">00:00</string>
+    <style name="ActionListButtonText">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textSize">15dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+    <style name="EveryplaySharingModal" parent="@android:style/Theme.Dialog">
+	    <item name="android:windowCloseOnTouchOutside">false</item>
+	</style>
+</resources>

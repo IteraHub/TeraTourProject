@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="12dp"
+    tools:context="com.iterahub.teratour.ui.activities.CommentsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+    </android.support.v7.widget.Toolbar>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:text="No comment available"
+        android:id="@+id/empty_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/comments_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animationCache="false"
+        android:clipToPadding="false"
+        android:scrollingCache="false"
+        android:padding="12dp"
+        android:layout_above="@+id/comment_edit_text"
+        android:layout_below="@+id/toolbar"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        tools:listitem="@layout/items_comment_layout"/>
+    <EditText
+        android:layout_margin="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:hint="Type comment"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/send_comment_button"
+        android:id="@+id/comment_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50sp" />
+    <ImageButton
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"
+        android:id="@+id/send_comment_button"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="50dp"
+        android:src="@drawable/ic_send"
+        android:layout_height="50dp"
+        android:background="@drawable/button_pressed"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: android_component:@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android_component.aar/179ddb7e332ba59cc646d12ebf15e528/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android_component.aar/179ddb7e332ba59cc646d12ebf15e528/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android_component.aar/179ddb7e332ba59cc646d12ebf15e528/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

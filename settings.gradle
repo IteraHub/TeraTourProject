@@ -1,0 +1,3 @@
+include ':app', ':TeraTourAR', ':everyplay', ':teratourandroidlib'
+project(':everyplay').projectDir = new File('TeraTourAR/everyplay')
+project(':teratourandroidlib').projectDir = new File('TeraTourAR/teratourandroidlib')

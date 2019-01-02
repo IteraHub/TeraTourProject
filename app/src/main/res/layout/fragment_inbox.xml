@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="16dp"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:paddingTop="55dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.InboxFragment">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Small"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/inbox_recycler"
+       app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+       android:layout_width="match_parent"
+       tools:listitem="@layout/inbox_items_layout"
+       android:layout_height="wrap_content"/>
+   <TextView
+       android:visibility="gone"
+       android:id="@+id/no_data_tv"
+       android:text="No chats available"
+       android:layout_centerInParent="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

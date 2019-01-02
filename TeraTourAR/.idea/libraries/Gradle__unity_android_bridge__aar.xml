@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: unity_android_bridge:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unity_android_bridge.aar/fcb2c72b32aa6836386d8556750f843a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unity_android_bridge.aar/fcb2c72b32aa6836386d8556750f843a/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

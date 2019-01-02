@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TeraTourAR/TeraTourAR.iml" filepath="$PROJECT_DIR$/TeraTourAR/TeraTourAR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teratour.iml" filepath="$PROJECT_DIR$/Teratour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeraTourAR/everyplay/everyplay.iml" filepath="$PROJECT_DIR$/TeraTourAR/everyplay/everyplay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeraTourAR/teratourandroidlib/teratourandroidlib.iml" filepath="$PROJECT_DIR$/TeraTourAR/teratourandroidlib/teratourandroidlib.iml" />
+    </modules>
+  </component>
+</project>

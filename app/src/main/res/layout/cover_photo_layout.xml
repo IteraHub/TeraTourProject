@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    tools:context=".ui.activities.UserProfileActivity"
+    android:theme="@style/AppTheme.NoActionBar"
+    >
+
+    <ImageView
+        android:id="@+id/cover_pic"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_height="170dp"
+        tools:src="@drawable/pm"/>
+
+    <RelativeLayout
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progress_bar_1"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/profile_pic"
+            android:layout_width="60dp"
+            android:scaleType="centerCrop"
+            android:layout_height="60dp"
+            tools:src="@drawable/pm"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#ffffff"
+            />
+        <TextView
+            android:layout_toEndOf="@+id/profile_pic"
+            android:id="@+id/name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            tools:text="John Doe"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toEndOf="@+id/profile_pic"
+            android:layout_below="@+id/name"
+            tools:text="John Doe"
+            android:textColor="@color/white"
+            android:id="@+id/username"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@+id/inbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:layout_below="@+id/profile_pic"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:scaleType="centerCrop"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"
+                android:src="#ffffff"
+                />
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/mail"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/scrim"/>
+
+</FrameLayout>
+

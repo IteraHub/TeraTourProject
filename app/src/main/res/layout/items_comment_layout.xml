@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/owner_pic"
+        android:layout_width="40dp"
+        android:scaleType="centerCrop"
+        android:layout_height="45dp"
+        tools:src="@drawable/pm"
+        android:layout_marginBottom="8dp"
+        />
+    <TextView
+        android:layout_toEndOf="@+id/owner_pic"
+        android:id="@+id/owner_name"
+        tools:text="John Doe"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        tools:text="-@johndoe"
+        android:textSize="12sp"
+        android:id="@+id/owner_username"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/owner_name"
+        android:layout_toEndOf="@+id/owner_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="15dp"
+        android:textSize="12sp"
+        android:layout_below="@+id/owner_pic"
+        android:id="@+id/owner_text"
+        tools:text="@string/small_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/owner_text"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+</RelativeLayout>

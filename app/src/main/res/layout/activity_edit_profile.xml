@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.EditProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/select_dp"
+                android:text="Select Display Picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <FrameLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/upload_dp_layout"
+                android:layout_below="@+id/select_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/dp_image"
+                    android:layout_width="69dp"
+                    android:layout_height="69dp"
+                    android:src="@drawable/default_image"
+                    android:paddingTop="@dimen/nav_header_vertical_spacing"
+                    />
+                <ProgressBar
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:id="@+id/upload_progress_dp"
+                    android:max="100"
+                    android:progress="45"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    style="?android:attr/progressBarStyleHorizontal"/>
+            </FrameLayout>
+
+            <TextView
+                android:layout_below="@+id/upload_dp_layout"
+                android:id="@+id/select_bg"
+                android:text="Select Background Picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/upload_bg_layout"
+                android:layout_below="@+id/select_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+               >
+                <ImageView
+                   android:scaleType="centerCrop"
+                    android:src="@drawable/default_image"
+                    android:id="@+id/bg_image"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp" />
+                <ProgressBar
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:id="@+id/upload_progress_bg"
+                    android:max="100"
+                    android:progress="45"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    style="?android:attr/progressBarStyleHorizontal"/>
+            </FrameLayout>
+
+
+            <EditText
+                android:hint="FirstName"
+                android:layout_below="@+id/upload_bg_layout"
+                android:id="@+id/firstname_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:hint="LastName"
+                android:layout_below="@+id/firstname_et"
+                android:id="@+id/lastname_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="Password"
+                android:layout_below="@+id/lastname_et"
+                android:id="@+id/password_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:hint="Confirm Password"
+                android:layout_below="@+id/password_et"
+                android:id="@+id/confirm_password_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:hint="Location"
+                android:layout_below="@+id/confirm_password_et"
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:visibility="invisible"
+                android:layout_below="@+id/location"
+                android:layout_marginTop="16dp"
+                android:id="@+id/select_dob"
+                android:text="Select Date of Birth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/about"
+                android:gravity="top"
+                android:layout_below="@+id/select_dob"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp"
+                android:background="#C4C4C4"
+                android:hint="About..."
+                android:inputType="textMultiLine|textLongMessage"
+                android:padding="10dp"
+                android:singleLine="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+
+            <Button
+
+                android:text="Ok"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/ok_button"
+                android:layout_below="@+id/about"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

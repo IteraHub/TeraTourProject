@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "222906740538",
+    "firebase_url": "https://teratour-35d97.firebaseio.com",
+    "project_id": "teratour-35d97",
+    "storage_bucket": "teratour-35d97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222906740538:android:fcf4feef8f7cb4de",
+        "android_client_info": {
+          "package_name": "com.iterahub.teratour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222906740538-4hqe33f94kvm5in5shhi62ciav7sgrbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iterahub.teratour",
+            "certificate_hash": "1995ff99a3770e7e81906753a6b808d0e69cb6b8"
+          }
+        },
+        {
+          "client_id": "222906740538-6gatd5al4pfnte88uv0pp1egncd140dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1L7rnHNKtU3cFTk9WukBhvYnKiUuW1ag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222906740538-6gatd5al4pfnte88uv0pp1egncd140dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
