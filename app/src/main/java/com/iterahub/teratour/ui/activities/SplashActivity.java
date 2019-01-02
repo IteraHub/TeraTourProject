@@ -13,7 +13,6 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
-import com.itera.teratour.View.UnityPlayerActivity;
 import com.iterahub.teratour.R;
 import com.iterahub.teratour.models.CommentModel;
 import com.iterahub.teratour.models.DummyUser;

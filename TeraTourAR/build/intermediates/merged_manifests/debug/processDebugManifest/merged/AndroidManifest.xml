@@ -52,7 +52,7 @@
         android:label="@string/app_name"
         android:theme="@style/UnityThemeSelector" >
         <activity
-            android:name="com.itera.teratour.View.UnityPlayerActivity"
+            android:name="com.itera.teratour.view.UnityPlayerActivity"
             android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
 
@@ -75,6 +75,9 @@
         <meta-data
             android:name="unity.splash-enable"
             android:value="true" />
+
+        <activity android:name="com.itera.teratour.view.UnityLaunch" >
+        </activity>
     </application>
 
 </manifest>

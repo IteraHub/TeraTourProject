@@ -33,7 +33,7 @@ import com.iterahub.teratour.utils.PrefUtils;
 import com.iterahub.teratour.utils.ShowUtils;
 import com.iterahub.teratour.viewmodel.AppViewModel;
 
-import com.itera.teratour.View.UnityPlayerActivity;
+import com.itera.teratour.view.UnityPlayerActivity;
 
 import org.parceler.Parcels;
 

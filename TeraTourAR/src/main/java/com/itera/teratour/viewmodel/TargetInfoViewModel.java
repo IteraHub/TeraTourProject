@@ -7,7 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.Toast;
 
-import com.itera.teratour.Model.TargetInfoModel;
+import com.itera.teratour.model.TargetInfoModel;
 
 public class TargetInfoViewModel extends ViewModel {
 
