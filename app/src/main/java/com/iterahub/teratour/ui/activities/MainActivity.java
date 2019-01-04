@@ -22,6 +22,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.itera.teratour.view.UnityLaunch;
+import com.iterahub.teratour.DummyActivity;
 import com.iterahub.teratour.R;
 import com.iterahub.teratour.models.SlackMessage;
 import com.iterahub.teratour.services.SendToSlackService;
@@ -65,9 +67,9 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //initLayout();
+        initLayout();
 
-        startActivity(new Intent(this, UnityPlayerActivity.class));
+        //startActivity(new Intent(this, UnityPlayerActivity.class));
 
     }
     @Override
@@ -153,6 +155,7 @@ public class MainActivity extends AppCompatActivity implements
                         break;
                     }
                     case 2: {
+                        startActivity(new Intent(MainActivity.this, UnityPlayerActivity.class));
                         break;
                     }
                     case 3:{
@@ -197,7 +200,6 @@ public class MainActivity extends AppCompatActivity implements
             drawer.closeDrawer(GravityCompat.START);
         else{
             super.onBackPressed();
-            //finish();
         }
 
     }

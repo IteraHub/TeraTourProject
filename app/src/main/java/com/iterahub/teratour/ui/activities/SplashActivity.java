@@ -141,14 +141,14 @@ public class SplashActivity extends AppCompatActivity {
 
     private void startApp(){
 
-//        if(prefUtils.isFirstTime()){
-//            startActivity(new Intent(this,SignUpActivity.class));
-//        }else if(prefUtils.isLoggedIn()){
-//            startActivity(new Intent(this,MainActivity.class));
-//        }else{
-//            startActivity(new Intent(this,LogInActivity.class));
-//        }
-//       finish();
+        if(prefUtils.isFirstTime()){
+            startActivity(new Intent(this,SignUpActivity.class));
+        }else if(prefUtils.isLoggedIn()){
+            startActivity(new Intent(this,MainActivity.class));
+        }else{
+            startActivity(new Intent(this,LogInActivity.class));
+        }
+       finish();
     }
 
     private void checkPermissions(int code) {
