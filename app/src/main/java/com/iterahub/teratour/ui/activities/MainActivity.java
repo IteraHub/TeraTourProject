@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity implements
                         break;
                     }
                     case 2: {
-                        startActivity(new Intent(MainActivity.this, UnityPlayerActivity.class));
+                        startActivity(new Intent(MainActivity.this, UnityLaunch.class));
                         break;
                     }
                     case 3:{
