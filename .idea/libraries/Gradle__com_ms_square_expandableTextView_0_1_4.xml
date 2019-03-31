@@ -1,8 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.ms-square:expandableTextView-0.1.4">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/da2a164bb037c10a8f6106046af71e69/annotations.zip!/" />
+    </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/700901282cec9b817045a42231106fd3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/700901282cec9b817045a42231106fd3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/da2a164bb037c10a8f6106046af71e69/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/expandableTextView-0.1.4.aar/da2a164bb037c10a8f6106046af71e69/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

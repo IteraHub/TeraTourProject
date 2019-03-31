@@ -12,6 +12,8 @@ public interface IUnityAREvents {
 
     void OnShareVideo(String shareVideoPath);
 
+    void OnDeleteVideo(String deleteVideoPath);
+
     void OnARTargetFound(String targetID);
 
     void OnARTargetLost(String targetID);

@@ -369,6 +369,11 @@ public class UnityPlayerActivity extends AppCompatActivity implements IEveryplay
     }
 
     @Override
+    public void OnDeleteVideo(String deleteVideoPath) {
+
+    }
+
+    @Override
     public void OnARTargetFound(String s) {
         bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
         arViewModel.notify.setValue("Slide Up");

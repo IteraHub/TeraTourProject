@@ -51,6 +51,10 @@ public class UnityAREvents {
         if(unityAREvents != null) unityAREvents.OnShareVideo(videoSharePath);
     }
 
+    public static void DeleteVideo(String videoDeletePath) {
+
+        if(unityAREvents != null) unityAREvents.OnDeleteVideo(videoDeletePath);
+    }
 
     private static void StartPlaybackActivity(Activity activity){
         Intent intent = new Intent(activity, VideoPlayerActivity.class);
@@ -79,15 +83,20 @@ public class UnityAREvents {
                             Toast.makeText(context, e.getMessage(), Toast.LENGTH_LONG).show();
                         }
                     }
-                })
-                .setNegativeButton("Share", new DialogInterface.OnClickListener() {
+                }).setNeutralButton("Delete", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast.makeText(context, "Share Feature in Development", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "Define Delete Function", Toast.LENGTH_LONG).show();
 
-                        ShareVideo(videoPath);
-                    }
-                }).setMessage("Recording Stopped").show();
+                        DeleteVideo(videoPath);
+                    }}).setNegativeButton("Share", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                Toast.makeText(context, "Share Feature in Development", Toast.LENGTH_LONG).show();
+
+                                ShareVideo(videoPath);
+                            }
+                        }).setMessage("Recording Stopped").show();
 
     }
 
