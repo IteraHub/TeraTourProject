@@ -28,7 +28,7 @@ import com.unity3d.player.UnityPlayer;
 
 //import android.databinding.DataBindingUtil;
 
-public class UnityPlayerActivity extends AppCompatActivity implements IEveryplayListener, IUnityAREvents {
+public class UnityPlayerActivity extends AppCompatActivity {
     protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
 
 	private BottomSheetBehavior bottomSheetBehavior;
@@ -93,8 +93,7 @@ public class UnityPlayerActivity extends AppCompatActivity implements IEveryplay
 
         unity_view.requestFocus();
 
-        Everyplay.initEveryplay(this, this);
-        UnityAREvents.Instance().InitializeUnityAREvents(this);
+        //Everyplay.initEveryplay(this, this);
 
 
         initLayout();
@@ -188,7 +187,7 @@ public class UnityPlayerActivity extends AppCompatActivity implements IEveryplay
     @Override public boolean onKeyDown(int keyCode, KeyEvent event)   { return mUnityPlayer.injectEvent(event); }
     @Override public boolean onTouchEvent(MotionEvent event)          { return mUnityPlayer.injectEvent(event); }
     /*API12*/ public boolean onGenericMotionEvent(MotionEvent event)  { return mUnityPlayer.injectEvent(event); }
-
+/*
 @Override
     public void onEveryplayShown() {
 
@@ -225,7 +224,7 @@ public class UnityPlayerActivity extends AppCompatActivity implements IEveryplay
     @Override
     public void onFileReady(String s) {
 
-    }
+    }*/
 
 
 
@@ -352,7 +351,7 @@ public class UnityPlayerActivity extends AppCompatActivity implements IEveryplay
 
     }
 
-    @Override
+/*    @Override
     public void OnRecordingStarted() {
 
 
@@ -382,5 +381,5 @@ public class UnityPlayerActivity extends AppCompatActivity implements IEveryplay
     @Override
     public void OnARTargetLost(String s) {
         //targetInfoViewModel.targetName.setValue("Worked");
-    }
+    }*/
 }
