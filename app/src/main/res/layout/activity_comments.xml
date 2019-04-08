@@ -60,7 +60,7 @@
         android:focusable="true"
         android:clickable="true"
         android:layout_width="50dp"
-        android:src="@drawable/ic_send"
+        app:srcCompat="@drawable/ic_send"
         android:layout_height="50dp"
         android:background="@drawable/button_pressed"
         android:layout_alignParentEnd="true"
