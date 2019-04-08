@@ -27,23 +27,6 @@
     <color name="everyplay_theme_topbar_icon_active_color">#FFFFFF</color>
     <color name="everyplay_theme_topbar_icon_color">#FFFFFF</color>
     <color name="everyplay_theme_topbar_title_text_color">#FFFFFF</color>
-    <declare-styleable name="EveryplayImageView">
-        <attr format="float" name="borderRadius"/>
-    </declare-styleable>
-    <declare-styleable name="EveryplayRangeSlider">
-        <attr format="dimension" name="startPointButtonWidth"/>
-        <attr format="reference" name="startPointButtonDrawable"/>
-        <attr format="reference" name="startPointButtonDrawablePressed"/>
-        <attr format="dimension" name="trackerButtonWidth"/>
-        <attr format="reference" name="trackerButtonDrawable"/>
-        <attr format="reference" name="trackerButtonDrawablePressed"/>
-        <attr format="dimension" name="endPointButtonWidth"/>
-        <attr format="reference" name="endPointButtonDrawable"/>
-        <attr format="reference" name="endPointButtonDrawablePressed"/>
-        <attr format="reference" name="backgroundTrackDrawable"/>
-        <attr format="reference" name="streamProgressTrackDrawable"/>
-        <attr format="reference" name="currentTimeTrackDrawable"/>
-    </declare-styleable>
     <string name="everyplay_app_name">Everyplay</string>
     <string name="everyplay_browse_text">Browse</string>
     <string name="everyplay_by_text">by</string>
@@ -88,4 +71,21 @@
     <style name="EveryplaySharingModal" parent="@android:style/Theme.Dialog">
 	    <item name="android:windowCloseOnTouchOutside">false</item>
 	</style>
+    <declare-styleable name="EveryplayImageView">
+        <attr format="float" name="borderRadius"/>
+    </declare-styleable>
+    <declare-styleable name="EveryplayRangeSlider">
+        <attr format="dimension" name="startPointButtonWidth"/>
+        <attr format="reference" name="startPointButtonDrawable"/>
+        <attr format="reference" name="startPointButtonDrawablePressed"/>
+        <attr format="dimension" name="trackerButtonWidth"/>
+        <attr format="reference" name="trackerButtonDrawable"/>
+        <attr format="reference" name="trackerButtonDrawablePressed"/>
+        <attr format="dimension" name="endPointButtonWidth"/>
+        <attr format="reference" name="endPointButtonDrawable"/>
+        <attr format="reference" name="endPointButtonDrawablePressed"/>
+        <attr format="reference" name="backgroundTrackDrawable"/>
+        <attr format="reference" name="streamProgressTrackDrawable"/>
+        <attr format="reference" name="currentTimeTrackDrawable"/>
+    </declare-styleable>
 </resources>

@@ -94,13 +94,16 @@ public class PostViewHolder extends RecyclerView.ViewHolder implements View.OnCl
             }
             case R.id.share:{
                 postButtonsClickedInterface.onShareClicked(this.getLayoutPosition());
+                break;
             }
 
             case R.id.profile_username:{
                 postButtonsClickedInterface.onProfileUsernameClicked(this.getLayoutPosition());
+                break;
             }
             case R.id.profile_name:{
                 postButtonsClickedInterface.onProfileNameClicked(this.getLayoutPosition());
+                break;
             }
             case R.id.owner_text:{
                 postButtonsClickedInterface.onCommentsButtonClicked(this.getLayoutPosition());

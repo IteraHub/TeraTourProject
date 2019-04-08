@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
@@ -15,6 +16,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,6 +35,7 @@ import com.iterahub.teratour.viewmodel.AppViewModel;
 
 import org.parceler.Parcels;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -65,7 +68,8 @@ public class DirectMessageActivity extends AppCompatActivity {
     PrefUtils prefUtils;
     MessagesAdapter messagesAdapter;
     ChatsModel chatsModel;
-    List<MessagesModel> messagesModelList;
+    List<MessagesModel> messagesModelList = new ArrayList<>();
+    LinearLayoutManager layoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,6 +91,9 @@ public class DirectMessageActivity extends AppCompatActivity {
         messageEt.requestFocus();
         toggleSoftKeyPad(true,messageEt);
 
+        //layoutManager = new LinearLayoutManager(this);
+
+
     }
 
     private void getDataFromIntent(Intent intent){
@@ -96,8 +103,15 @@ public class DirectMessageActivity extends AppCompatActivity {
                 userName.setText(String.valueOf(userModel.getFirstname() + " " + userModel.getLastname()));
                 ShowUtils.setImage(this,userDp,userModel.getImage_url());
                 getChatsByUser(prefUtils.getUserId(),userModel.getId());
+                prefUtils.setChattingUserId(userModel.getId());
             }
         }
+    }
+
+    @Override
+    public void finish(){
+        prefUtils.setChattingUserId("");
+        super.finish();
     }
 
     private void getChatsByUser(String myUserId, String otherUserId){
@@ -106,6 +120,7 @@ public class DirectMessageActivity extends AppCompatActivity {
         appViewModel.getChatsByUser(myUserId,otherUserId).observe(this, chatsModel -> {
             if(chatsModel != null){
                 this.chatsModel = chatsModel;
+                //getMessageUpdate(chatsModel.getId());
                 getMessages(chatsModel.getId());
             }else{
                 progressBar.setVisibility(View.GONE);
@@ -120,13 +135,31 @@ public class DirectMessageActivity extends AppCompatActivity {
         });
     }
 
+    private void getMessageUpdate(String chatId){
+        appViewModel.getMessageUpdates(chatId).observe(this,messagesModel -> {
+            progressBar.setVisibility(View.GONE);
+            noChatsTv.setVisibility(View.GONE);
+            if(messagesModel != null){
+                messagesModelList.add(messagesModel);
+                if(messagesAdapter == null){
+                    messagesAdapter = new MessagesAdapter(prefUtils.getUserId(),messagesModelList);
+                    recyclerView.setAdapter(messagesAdapter);
+                }else{
+                    messagesAdapter.addData(messagesModel);
+                }
+            }else{
+                Log.e(this.toString(),"MessageModel is null");
+            }
+        });
+    }
+
     private void getMessages(String chatId) {
         appViewModel.getMessages(chatId).observe(this, messagesModelList -> {
             progressBar.setVisibility(View.GONE);
+            noChatsTv.setVisibility(View.GONE);
             if(messagesModelList != null && !messagesModelList.isEmpty()){
-                this.messagesModelList = messagesModelList;
-                noChatsTv.setVisibility(View.GONE);
-                messagesAdapter = new MessagesAdapter(prefUtils.getUserId(),messagesModelList);
+               this.messagesModelList = messagesModelList;
+               messagesAdapter = new MessagesAdapter(prefUtils.getUserId(),messagesModelList);
                 recyclerView.setAdapter(messagesAdapter);
             }else{
                 noChatsTv.setVisibility(View.VISIBLE);
@@ -171,7 +204,6 @@ public class DirectMessageActivity extends AppCompatActivity {
     private void addMessages(String myUserId, String msg, String chatId){
         MessagesModel messagesModel = new MessagesModel();
         messagesModel.setChatId(chatId);
-        messagesModel.setCreatedAt(new Date());
         messagesModel.setText(msg);
         messagesModel.setUserId(myUserId);
         appViewModel.addMessages(messagesModel).observe(this, isSuccessful -> {
@@ -180,6 +212,7 @@ public class DirectMessageActivity extends AppCompatActivity {
            }else{
                Log.e(getClass().getSimpleName(),"Message created successfully");
                if(this.messagesModelList == null || this.messagesModelList.isEmpty()){
+                   //getMessageUpdate(chatId);
                    getMessages(chatId);
                }
            }

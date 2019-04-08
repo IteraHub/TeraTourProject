@@ -202,7 +202,17 @@ public class AppViewModel extends ViewModel {
         return appRepo.getMessages(chatId);
     }
 
+    public LiveData<MessagesModel> getMessageUpdates(String chatId){
+        return appRepo.getMessageUpdate(chatId);
+    }
 
+    public LiveData<Boolean> updateUser(UserModel userModel){
+        return appRepo.updateUser(userModel);
+    }
+
+    public LiveData<MessagesModel> getLatestMessage(){
+        return appRepo.getLatestMessage();
+    }
 
     //Firebase query end region
 }

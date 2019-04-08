@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 
 import com.iterahub.teratour.R;
 import com.iterahub.teratour.models.MessagesModel;
+import com.iterahub.teratour.utils.DiffUtils;
 import com.iterahub.teratour.viewHolders.MessagesViewHolder;
 
 import java.util.List;
@@ -40,6 +41,13 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesViewHolder> {
             holder.dmReceivedTv.setText(msg.getText());
             holder.sentLayout.setVisibility(View.GONE);
         }
+    }
+
+    public void addData(MessagesModel data){
+        int size = messagesModelList.size();
+        messagesModelList.add(size,data);
+        messagesModelList = DiffUtils.filterOutDuplicatesMsg(messagesModelList);
+        notifyItemInserted(size);
     }
 
     @Override
