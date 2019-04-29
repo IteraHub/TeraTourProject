@@ -12,7 +12,7 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static int videoView = 0x7f0c0122;
+        public static int videoView = 0x7f0c0126;
     }
     public static final class layout {
         private layout() {}

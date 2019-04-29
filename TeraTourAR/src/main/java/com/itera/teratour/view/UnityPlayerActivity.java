@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomSheetBehavior;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
@@ -18,13 +20,18 @@ import android.widget.Toast;
 import com.everyplay.Everyplay.Everyplay;
 import com.everyplay.Everyplay.IEveryplayListener;
 import com.itera.teratour.R;
+import com.itera.teratour.adapters.ARAssetAdapter;
 import com.itera.teratour.databinding.ArViewBinding;
 import com.itera.teratour.databinding.TargetInfoLayoutBinding;
+import com.itera.teratour.model.ARAssetModel;
 import com.itera.teratour.viewmodel.ARViewModel;
 import com.itera.teratour.viewmodel.TargetInfoViewModel;
 import com.teratour.plugin.teratourandroidlib.IUnityAREvents;
 import com.teratour.plugin.teratourandroidlib.UnityAREvents;
 import com.unity3d.player.UnityPlayer;
+
+import java.util.ArrayList;
+import java.util.List;
 
 //import android.databinding.DataBindingUtil;
 
@@ -348,6 +355,23 @@ public class UnityPlayerActivity extends AppCompatActivity {
             }
         });
 
+
+
+        bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
+        arViewModel.notify.setValue("Slide Up");
+
+        List<ARAssetModel> assetData = new ArrayList<>();
+        assetData.add(new ARAssetModel("Test One", "http://google.com", R.drawable.chat));
+        assetData.add(new ARAssetModel("Test Two", "http://google.com", R.drawable.up_arrow));
+        assetData.add(new ARAssetModel("Test Three", "http://google.com", R.drawable.three));
+        assetData.add(new ARAssetModel("Test Four", "http://google.com", R.drawable.test_image));
+        assetData.add(new ARAssetModel("Test One", "http://google.com", R.drawable.green));
+
+        RecyclerView recyclerView = findViewById(R.id.ar_asset_view_id);
+        ARAssetAdapter arAssetAdapter = new ARAssetAdapter(this, assetData);
+
+        recyclerView.setLayoutManager(new GridLayoutManager(this, 4));
+        recyclerView.setAdapter(arAssetAdapter);
 
     }
 

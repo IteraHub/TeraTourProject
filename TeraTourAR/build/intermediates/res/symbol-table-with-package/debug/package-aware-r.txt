@@ -1204,7 +1204,11 @@ id actions
 id activity_chooser_view_content
 id add
 id alertTitle
+id ar_asset_view_id
 id ar_ui
+id asset_card_item
+id asset_image
+id asset_name
 id async
 id authLayoutProgressBar
 id auto
@@ -1518,6 +1522,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_video_player
+layout ar_asset_layout
 layout ar_ui
 layout ar_view
 layout design_bottom_navigation_item
