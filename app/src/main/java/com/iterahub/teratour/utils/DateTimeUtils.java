@@ -1,5 +1,6 @@
 package com.iterahub.teratour.utils;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -37,6 +38,17 @@ public class DateTimeUtils {
             localDateFormat = new SimpleDateFormat("dd-MM-yyyy", Locale.ROOT);
             return localDateFormat.format(date);
         }
+    }
+
+    public static Date getDateFromString(String date){
+        SimpleDateFormat localDateFormat = new SimpleDateFormat("dd-MM-yyyy h:mm a", Locale.ROOT);
+        Date dt = new Date();
+        try {
+            dt =  localDateFormat.parse(date);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return dt;
     }
 
 }

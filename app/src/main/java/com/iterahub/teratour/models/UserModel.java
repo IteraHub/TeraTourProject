@@ -140,4 +140,23 @@ public class UserModel {
     public void setCreated_at(Date created_at) {
         this.created_at = created_at;
     }
+
+    @Override
+    public String toString() {
+        return "UserModel{" +
+                "id='" + id + '\'' +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", email='" + email + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", image_url='" + image_url + '\'' +
+                ", dob='" + dob + '\'' +
+                ", about='" + about + '\'' +
+                ", cover_photo_url='" + cover_photo_url + '\'' +
+                ", current_location='" + current_location + '\'' +
+                ", updated_at=" + updated_at +
+                ", created_at=" + created_at +
+                '}';
+    }
 }

@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.iterahub.teratour.R;
+import com.iterahub.teratour.interfaces.ActionSentInterface;
 import com.iterahub.teratour.models.CommentModel;
 import com.iterahub.teratour.models.DummyUser;
 import com.iterahub.teratour.models.MediaModel;
@@ -29,7 +30,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity{
 
     private final int m_permissionCode = 100; // unique permission request code
     PrefUtils prefUtils;

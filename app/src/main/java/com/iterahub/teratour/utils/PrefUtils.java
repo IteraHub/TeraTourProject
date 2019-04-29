@@ -14,6 +14,7 @@ public class PrefUtils {
     private final String LOGGED_IN = "LOGGED_IN";
     private final String AUTH = "AUTH";
     private final String FIRST_TIME = "FIRST_TIME";
+    private final String CHATTING_USER_ID = "chattingUserId";
     private SharedPreferences prefs;
     private SharedPreferences.Editor editor;
 
@@ -69,6 +70,16 @@ public class PrefUtils {
 
     public String getAuth(){
         return prefs.getString(AUTH,"");
+    }
+
+    public void setChattingUserId(String chattingUserId){
+        editor = prefs.edit();
+        editor.putString(CHATTING_USER_ID,chattingUserId);
+        editor.apply();
+    }
+
+    public String getChattingUserId(){
+        return prefs.getString(CHATTING_USER_ID,"");
     }
 
 }

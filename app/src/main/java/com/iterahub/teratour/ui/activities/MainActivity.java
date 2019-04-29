@@ -1,7 +1,9 @@
 package com.iterahub.teratour.ui.activities;
+
 import android.app.SearchManager;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -23,7 +25,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.itera.teratour.view.UnityLaunch;
-import com.iterahub.teratour.DummyActivity;
 import com.iterahub.teratour.R;
 import com.iterahub.teratour.models.SlackMessage;
 import com.iterahub.teratour.services.SendToSlackService;
@@ -31,11 +32,10 @@ import com.iterahub.teratour.ui.fragments.HomeFragment;
 import com.iterahub.teratour.ui.fragments.InboxFragment;
 import com.iterahub.teratour.ui.fragments.SearchFragment;
 import com.iterahub.teratour.utils.Constants;
+import com.iterahub.teratour.utils.NotificationUtil;
 import com.iterahub.teratour.utils.PrefUtils;
 import com.iterahub.teratour.utils.ShowUtils;
 import com.iterahub.teratour.viewmodel.AppViewModel;
-
-import com.itera.teratour.view.UnityPlayerActivity;
 
 import org.parceler.Parcels;
 
@@ -46,7 +46,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements
-        NavigationView.OnNavigationItemSelectedListener, SearchManager.OnDismissListener{
+        NavigationView.OnNavigationItemSelectedListener, SearchManager.OnDismissListener {
 
     private ImageView profileImage;
     private TextView profileName;
@@ -63,19 +63,38 @@ public class MainActivity extends AppCompatActivity implements
     ViewPager Tab_ViewPager;
     Fragment fragment;
 
+    private final int editActivity_code = 2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initLayout();
 
+        displayNotification();
+
+
+        //UnityAREvents.Instance().InitializeUnityAREvents(this);
+
         //startActivity(new Intent(this, UnityPlayerActivity.class));
 
     }
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-
+        if(resultCode == RESULT_OK){
+            switch (requestCode){
+                case editActivity_code: {
+                    if(data != null){
+                        Uri imageUri = Uri.parse(data.getStringExtra("dpImageUri"));
+                        String name = data.getStringExtra("fullname");
+                        profileImage.setImageURI(imageUri);
+                        profileName.setText(name);
+                    }
+                }
+            }
+        }
         if (resultCode != RESULT_OK) {
+
             Toast.makeText(this, "Permission Denied", Toast.LENGTH_LONG).show();
             return;
         }
@@ -229,6 +248,22 @@ public class MainActivity extends AppCompatActivity implements
         Log.e(MainActivity.class.getSimpleName(),"Service started");
     }
 
+
+    private void displayNotification(){
+        //listen for when a new message arrives.
+        //check if the user is currently engaging with other user  to display notification.
+        //if current user is currently chatting with recipient user, do not display notification
+        //else if current user is not chatting with recipient user but doing other things display
+        //notification.
+        appViewModel.getLatestMessage().observe(this, messagesModel -> {
+            if(messagesModel != null) {
+                //if(prefUtils.getChattingUserId() == messagesMode)
+                new NotificationUtil(this).createNotification("Teratour",
+                        messagesModel.getText() == null? " ": messagesModel.getText());
+            }
+        });
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -260,16 +295,21 @@ public class MainActivity extends AppCompatActivity implements
         switch (id){
             case R.id.nav_user:{
                 startActivity(new Intent(this,UserProfileActivity.class));
-                drawer.closeDrawer(GravityCompat.START);
                 break;
             }
             case R.id.nav_logout:{
                 prefUtils.setLogIn(false);
                 startActivity(new Intent(this,LogInActivity.class));
                 finish();
+                break;
+            }
+            case R.id.nav_edit_profile:{
+                startActivityForResult(new Intent(this,EditProfileActivity.class),editActivity_code);
+                break;
             }
         }
 
+        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
@@ -280,4 +320,29 @@ public class MainActivity extends AppCompatActivity implements
 //                .replace(R.id.content_app,fragment,fragment.getClass().getSimpleName())
 //                .addToBackStack(null).commit();
     }
+
+//    @Override
+//    public void OnRecordingStarted() {
+//        Log.e(this.toString(),"Recording started");
+//    }
+//
+//    @Override
+//    public void OnRecordingStopped() {
+//        Log.e(this.toString(),"Recording stopped");
+//    }
+//
+//    @Override
+//    public void OnShareVideo(String shareVideoPath) {
+//        Log.e(this.toString(),shareVideoPath);
+//    }
+//
+//    @Override
+//    public void OnARTargetFound(String targetID) {
+//        Log.e(this.toString(),"ARTargetFound " + targetID);
+//    }
+//
+//    @Override
+//    public void OnARTargetLost(String targetID) {
+//        Log.e(this.toString(),"ARTargetLost " + targetID);
+//    }
 }

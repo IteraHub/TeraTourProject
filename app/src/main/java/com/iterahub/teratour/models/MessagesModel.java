@@ -1,5 +1,6 @@
 package com.iterahub.teratour.models;
 
+import com.iterahub.teratour.utils.DateTimeUtils;
 import com.iterahub.teratour.utils.RandomString;
 
 import org.parceler.Parcel;
@@ -12,7 +13,7 @@ public class MessagesModel {
     String userId;
     String chatId;
     String text;
-    Date createdAt;
+    String createdAt = DateTimeUtils.formatDateTime(new Date());
 
     public String getId() {
         return id;
@@ -38,11 +39,11 @@ public class MessagesModel {
         this.text = text;
     }
 
-    public Date getCreatedAt() {
+    public String getCreatedAt() {
         return createdAt;
     }
 
-    public void setCreatedAt(Date createdAt) {
+    public void setCreatedAt(String createdAt) {
         this.createdAt = createdAt;
     }
 
@@ -52,5 +53,16 @@ public class MessagesModel {
 
     public void setUserId(String userId) {
         this.userId = userId;
+    }
+
+    @Override
+    public String toString() {
+        return "MessagesModel{" +
+                "id='" + id + '\'' +
+                ", userId='" + userId + '\'' +
+                ", chatId='" + chatId + '\'' +
+                ", text='" + text + '\'' +
+                ", createdAt='" + createdAt + '\'' +
+                '}';
     }
 }

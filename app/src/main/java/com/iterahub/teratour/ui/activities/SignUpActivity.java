@@ -164,7 +164,7 @@ public class SignUpActivity extends AppCompatActivity {
             ConfirmPasswordET.setText("");
             PasswordET.setText("");
             PasswordET.setError("Passwords do not match");
-            //PasswordET.requestFocus();
+            //passwordET.requestFocus();
             return;
         }
         ShadowLayout.setVisibility(View.VISIBLE);
