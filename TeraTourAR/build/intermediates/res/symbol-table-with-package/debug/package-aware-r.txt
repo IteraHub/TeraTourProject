@@ -1600,6 +1600,7 @@ mipmap app_icon
 mipmap app_icon_round
 mipmap ic_launcher_background
 mipmap ic_launcher_foreground
+raw keep
 string NoImage
 string __arcore_cancel
 string __arcore_continue

@@ -12,13 +12,11 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <!-- Tell the system this app requires OpenGL ES 2.0. -->
-    <uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true" />
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
     <!-- rear facing cam -->
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="true" />
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
     <!-- do not support small resolution screens -->
     <supports-screens
         android:anyDensity="true"
@@ -28,21 +26,14 @@
         android:xlargeScreens="true"
         tools:replace="android:smallScreens" />
 
-    <uses-feature
-        android:name="android.hardware.camera.autofocus"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.front"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.touchscreen"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.touchscreen.multitouch"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.touchscreen.multitouch.distinct"
-        android:required="false" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
 
     <application
         android:banner="@drawable/app_banner"
@@ -52,6 +43,8 @@
         android:theme="@style/UnityThemeSelector">
         <activity
             android:name=".view.UnityPlayerActivity"
+            android:launchMode="singleTask"
+            android:process=":unityplayer"
             android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 

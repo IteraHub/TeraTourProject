@@ -3,6 +3,7 @@ package com.itera.teratour.view;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class UnityLaunch extends AppCompatActivity {
 
@@ -10,7 +11,11 @@ public class UnityLaunch extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        Toast.makeText(getApplicationContext(), "Called", Toast.LENGTH_LONG).show();
+
         startActivity(new Intent(getBaseContext(), UnityPlayerActivity.class));
+
+        finish();
     }
 
     @Override
@@ -27,8 +32,15 @@ public class UnityLaunch extends AppCompatActivity {
     }
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
+
+    @Override
     protected void onDestroy(){
         super.onDestroy();
+
+        finish();
     }
 
     // Trim Memory Unity

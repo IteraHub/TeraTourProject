@@ -190,7 +190,10 @@ public class UnityPlayerActivity extends AppCompatActivity {
     }
 
     // Pass any events not handled by (unfocused) views straight to UnityPlayer
-    @Override public boolean onKeyUp(int keyCode, KeyEvent event)     { return mUnityPlayer.injectEvent(event); }
+    @Override public boolean onKeyUp(int keyCode, KeyEvent event)     {
+        return mUnityPlayer.injectEvent(event);
+
+    }
     @Override public boolean onKeyDown(int keyCode, KeyEvent event)   { return mUnityPlayer.injectEvent(event); }
     @Override public boolean onTouchEvent(MotionEvent event)          { return mUnityPlayer.injectEvent(event); }
     /*API12*/ public boolean onGenericMotionEvent(MotionEvent event)  { return mUnityPlayer.injectEvent(event); }
@@ -354,7 +357,6 @@ public class UnityPlayerActivity extends AppCompatActivity {
                 return false;
             }
         });
-
 
 
         bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
