@@ -21,7 +21,6 @@ public class UnityLaunch extends AppCompatActivity {
     @Override
     protected void onPause(){
         super.onPause();
-
     }
 
     @Override
