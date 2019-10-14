@@ -91,8 +91,8 @@
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: __local_aars__:/media/francis/DataBase/Tera/Teratour/TeraTourAR/libs/unity-classes.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/root/.gradle/caches/transforms-2/files-2.1/e237e1d1c21e6df75b2414f8e12a69a3/ARExtensions/jars/classes.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/root/.gradle/caches/transforms-2/files-2.1/422c52841189fff0587345e6f2e6a965/UnityARCore/jars/classes.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/root/.gradle/caches/transforms-2/files-2.1/58f712f21404955c4929cf902a87f876/ARExtensions/jars/classes.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/root/.gradle/caches/transforms-2/files-2.1/403ffa56536b817ad55ab237db6cf2d5/UnityARCore/jars/classes.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:common-java8:1.1.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:/media/francis/DataBase/Tera/Teratour/TeraTourAR/everyplay/libs/everyplay.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.databinding:baseLibrary:3.5.1@jar" level="project" />
